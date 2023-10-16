@@ -12,7 +12,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    animation: rotate 8s linear infinite;
+    animation: rotate 20s linear infinite;
   }
   
   .set {
@@ -93,4 +93,32 @@ body, html {
     }
   }
   
+  .butterfly {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    transform-origin: 50% 150%;
+    transform: rotate(0deg);
+    animation:  sizeChange2 20s linear infinite;
+    border-radius: 25px;
+  }
+
+  @keyframes sizeChange2 {
+    0% {
+      transform: scale(1); /* Initial size */
+    }
+    50% {
+        transform: scale(1.5); /* Initial size */
+      }
+    75% {
+        transform: scale(2); /* Initial size */
+      }
+      
+    80% {
+      transform: scale(3); /* Scaled down size */
+    }
+    90% {
+        transform: scale(2); /* Scaled down size */
+      }
+    }
   
