@@ -1,4 +1,5 @@
 # Rotating-shapes
+A way to learn about animations and create something fun, whilst reflecting on my tech-stack at the time!
 
 https://github.com/Katie-W-22/Rotating-shapes/assets/142401708/34b4ed76-4974-496d-abf4-0bd876bb006d
 
